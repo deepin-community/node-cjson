@@ -1,0 +1,9 @@
+Description: Use_nodejs
+--- a/Makefile
++++ b/Makefile
+@@ -1,4 +1,4 @@
+ test:
+-	node ./test/test.js
++	nodejs ./test/test.js
+ 
+ .PHONY: test
